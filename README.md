@@ -15,3 +15,11 @@ This project provides bash scripts to install and remove Java 22 in Termux using
 
    ```sh
    pkg install wget && pkg update && pkg up && wget https://github.com/Aarav-uu-uu/java-22-termux/releases/download/v1.0.0/java22-installer.sh && bash java22-installer.sh
+## Removal
+
+To remove Java 22 and revert Termux to its previous state, follow these steps:
+
+1. **Run the following command in Termux:**
+
+   ```sh
+   pkg install wget && pkg update && pkg up && wget https://github.com/Aarav-uu-uu/java-22-termux/releases/download/v1.0.0/java22-remover.sh && bash java22-remover.sh
